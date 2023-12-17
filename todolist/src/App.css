@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  padding: 10px 10px 10px 10px;
+  background-color: #ffffff;
+}
+.icon-size{
+  height: 30px;
+  width: 30px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+  background-image: url("https://intellsys-optimizer.b-cdn.net/interviews/978ea909-91ec-49c2-bd69-d494c097d38d/header.jpg");
+}
+.image-container h1 {
+  text-align: center;
+  color: #2f69fe;
+}
+.Task-container {
+  margin-top: 5px;
+  align-items: end;
+}
+.h1element {
+  font-size: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 0;
+}
+.task-items {
+  margin-left: 30px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: #000118;
+}
+
+.button {
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  width: 90%;
+  background-color: #2f69fe;
+  color: #ffffff;
+}
+.input-button{
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 90%;
+  background-color: #ffffff;
+  color: #000118;
+}
