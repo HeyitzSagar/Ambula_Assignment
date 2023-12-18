@@ -19,7 +19,7 @@ export default function App() {
   }
   const handleDelete = (index) => {
     let updatedTodo = [...taskITems];
-    updatedTodo.slice(0,index);
+    updatedTodo.slice(index,1);
     settaskITems(updatedTodo);
   }
   let totalTask = taskITems.map((items) => items.task).length;
